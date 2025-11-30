@@ -1,0 +1,33 @@
+# Core dependencies
+streamlit>=1.28.0
+streamlit-extras
+torch>=2.0.0
+transformers>=4.30.0
+transformer-lens
+networkx
+plotly
+pandas
+numpy
+datasets
+evaluate
+einops
+fancy-einsum
+jaxtyping==0.2.25
+tokenizers
+pyinstrument
+
+# Repair module dependencies
+loguru>=0.7.0
+captum>=0.7.0
+scikit-learn>=1.5.0
+scipy>=1.14.0
+sentence-transformers>=3.4.0
+sentencepiece>=0.2.0
+tqdm>=4.67.0
+nltk>=3.9.0
+rouge-score>=0.1.0
+
+# Optional dependencies
+accelerate>=1.1.0
+bitsandbytes>=0.44.0
+

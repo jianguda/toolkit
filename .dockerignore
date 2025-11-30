@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation
+*.md
+!README.md
+
+# Scripts (not needed in Docker)
+scripts/
+
+# Data (will be mounted)
+data/
+outs/
+
+# Frontend source (build is included)
+llm_transparency_tool/components/frontend/node_modules/
+llm_transparency_tool/components/frontend/src/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Migration notes
+MIGRATION_NOTES.md
+START_GUIDE.md
+DEPLOYMENT.md

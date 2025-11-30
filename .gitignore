@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+# Python build artifacts (but allow frontend build)
+build/
+!lm_lens/components/frontend/build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment
+.env
+.env.local
+
+# Frontend
+lm_lens/components/frontend/node_modules/
+# 注意：build/ 目录需要提交到 Git，以便 Streamlit Cloud 部署
+# lm_lens/components/frontend/build/
+
+# Data and outputs
+data/
+outs/
+*.pkl
+*.log
+
+# Star directory (已迁移并删除)
+
+# Deployment
+.railway/
+.render/
+
+# OS
+.DS_Store
+Thumbs.db

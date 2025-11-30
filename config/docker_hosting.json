@@ -1,0 +1,13 @@
+{
+    "allow_loading_dataset_files": false,
+    "max_user_string_length": 100,
+    "preloaded_dataset_filename": "sample_input.txt",
+    "debug": false,
+    "demo_mode": true,
+    "models": {
+        "Qwen/Qwen2.5-Coder-0.5B": null,
+        "Qwen/Qwen2.5-Coder-1.5B": null,
+        "Qwen/Qwen2.5-Coder-3B": null
+    },
+    "default_model": "Qwen/Qwen2.5-Coder-0.5B"
+}
